@@ -1,0 +1,22 @@
+{
+  "name": "relay-crm",
+  "version": "1.0.0",
+  "description": "Relay CRM — a shared pipeline, contact book, and social content calendar for a small sales and social media team.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^2.3.0",
+    "pdfkit": "^0.20.2"
+  }
+}
